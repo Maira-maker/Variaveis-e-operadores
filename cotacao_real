@@ -1,0 +1,6 @@
+real = float(input("Quanto dinheiro você tem na carteira? R$:"))
+dolar = real / 4.95
+euro = real / 5.80
+franco_suico = real / 6.33
+won = real / 0.0034
+print("Com R${:.2f} você pode comprar U${:.2f} dolares, {:.2f} euros, {:.2f} francos suiços e {:.2f} wons sul-coreanos".format(real, dolar, euro, franco_suico, won))
